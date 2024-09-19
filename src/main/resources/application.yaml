@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: s3localstacktestcontainers
+  cloud:
+    aws:
+      s3:
+        region: us-east-1 # default is us-west-1
+      credentials:
+        access-key: your-awesome-key
+        secret-key: your-secret-secret
+logging:
+  level:
+    io:
+      awspring:
+        cloud: debug
